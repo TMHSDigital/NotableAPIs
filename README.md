@@ -1,5 +1,3 @@
-<h1 align="center">NotableAPIs</h1>
-
 <div align="center">
   <img src="./assets/images/notableapis-logo.svg" alt="NotableAPIs Banner" width="680">
 </div>
