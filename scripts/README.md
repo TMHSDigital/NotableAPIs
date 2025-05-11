@@ -1,6 +1,27 @@
-# Utility Scripts
+# Scripts
 
-This directory contains scripts and tools to help manage, test, and interact with APIs documented in this repository.
+This directory contains utility scripts for managing and maintaining the NotableAPIs project.
+
+## Purpose
+
+- Automate project structure setup
+- Validate API documentation
+- Generate reports or summaries
+- Other maintenance tasks
+
+## Included Scripts
+
+- `CreateProjectStructure.ps1`: Sets up the initial directory structure for the project
+
+## Usage
+
+Run scripts from the project root. For PowerShell scripts:
+
+```powershell
+pwsh scripts/CreateProjectStructure.ps1
+```
+
+Refer to script comments for additional usage instructions or required parameters.
 
 ## Available Scripts
 

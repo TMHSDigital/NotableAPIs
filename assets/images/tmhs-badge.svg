@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="40">
+  <!-- Light Mode Badge (default) -->
+  <g class="light-mode">
+    <rect x="0" y="0" rx="6" ry="6" width="230" height="40" fill="#f8f9fa" stroke="#0046c8" stroke-width="2"/>
+    <text x="50" y="16" font-family="Arial, sans-serif" font-size="10" fill="#555">POWERED BY</text>
+    <text x="50" y="30" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0046c8">TM Hospitality Strategies</text>
+    
+    <!-- Simplified "TM" logo -->
+    <rect x="10" y="10" width="30" height="20" rx="2" ry="2" fill="#0046c8"/>
+    <text x="15" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">TM</text>
+  </g>
+  
+  <!-- Dark Mode Badge - Will be shown with CSS in dark mode environments -->
+  <g class="dark-mode" style="display:none">
+    <rect x="0" y="0" rx="6" ry="6" width="230" height="40" fill="#222" stroke="#00a7e1" stroke-width="2"/>
+    <text x="50" y="16" font-family="Arial, sans-serif" font-size="10" fill="#ccc">POWERED BY</text>
+    <text x="50" y="30" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#00a7e1">TM Hospitality Strategies</text>
+    
+    <!-- Simplified "TM" logo -->
+    <rect x="10" y="10" width="30" height="20" rx="2" ry="2" fill="#00a7e1"/>
+    <text x="15" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">TM</text>
+  </g>
+  
+  <!-- Media query for dark mode - modern browsers support this -->
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .light-mode { display: none; }
+      .dark-mode { display: block; }
+    }
+  </style>
+</svg> 

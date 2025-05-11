@@ -1,88 +1,21 @@
 # API Categories
 
-This directory organizes APIs by their primary functionality and industry focus. Each subdirectory represents a specific category and contains relevant APIs along with their documentation.
+APIs grouped by their functionality.
 
-## Categories Overview
+## Categories List
 
-### Data & Analytics
-- Data Processing
-- Business Intelligence
-- Analytics Platforms
-- Big Data Solutions
+- Data & Analytics: APIs for data retrieval, analysis, and visualization
+- Development Tools: APIs that assist in software development, testing, and automation
+- Education: APIs for learning resources, dictionaries, and educational content
+- Entertainment: APIs for games, music, movies, and fun content
+- Geography: APIs for maps, geolocation, and country data
+- Science: APIs for scientific data, research, and space
+- Social Media: APIs for social platforms and communication
+- Testing: APIs for mock data, HTTP testing, and validation
+- Weather: APIs for weather data and forecasts
 
-### Artificial Intelligence
-- Machine Learning
-- Natural Language Processing
-- Computer Vision
-- Speech Recognition
+## Navigation
 
-### Communication
-- Messaging
-- Email Services
-- Voice & Video
-- Chat & Collaboration
+Each category may have its own subdirectory or list of APIs. Use the links or directory structure to find APIs by category.
 
-### Financial
-- Payment Processing
-- Banking
-- Cryptocurrency
-- Investment & Trading
-
-### Cloud Services
-- Storage
-- Compute
-- Serverless
-- Database Services
-
-### Media
-- Image Processing
-- Video Services
-- Audio Processing
-- Content Delivery
-
-### Security
-- Authentication
-- Authorization
-- Encryption
-- Security Testing
-
-### Social Media
-- Social Network Integration
-- Social Analytics
-- Content Management
-
-### Developer Tools
-- CI/CD
-- Testing
-- Monitoring
-- Version Control
-
-### Location & Maps
-- Geocoding
-- Navigation
-- Location Services
-- Mapping
-
-### E-commerce
-- Shopping
-- Inventory Management
-- Order Processing
-- Product Information
-
-## Structure
-
-Each category directory contains:
-- A detailed README with category-specific information
-- Links to relevant APIs in the `apis/` directory
-- Best practices and common use cases
-- Integration examples where applicable
-
-## Contributing
-
-To add a new API to a category:
-1. Ensure the API is documented in the `apis/` directory first
-2. Add a reference in the appropriate category directory
-3. Update the category's README with relevant information
-4. If creating a new category, follow the existing format and structure
-
-For detailed contribution guidelines, please refer to the main repository's contribution guide.
+For more details, see the main README or the relevant API directory.

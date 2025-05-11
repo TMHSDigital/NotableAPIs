@@ -1,62 +1,144 @@
 # NotableAPIs
 
-Welcome to the **NotableAPIs** repository, a curated collection of APIs organized by pricing model, functionality, and provider. This repository aims to provide developers with a one-stop resource to explore, understand, and integrate various APIs into their projects.
+<div align="center">
+  <img src="./assets/images/notableapis-logo.svg" alt="NotableAPIs Banner" width="680">
+</div>
 
-## Repository Structure
+<p align="center">
+  <a href="https://github.com/TMHSDigital"><img src="https://img.shields.io/badge/maintained%20by-TMHSDigital-blue.svg?style=flat-square" alt="Maintained by TMHSDigital"></a>
+  <a href="https://github.com/TMHSDigital/NotableAPIs"><img src="https://img.shields.io/badge/last%20updated-May%202025-brightgreen.svg?style=flat-square" alt="Last Updated"></a>
+  <a href="https://github.com/TMHSDigital/NotableAPIs"><img src="https://img.shields.io/badge/APIs%20Documented-50+-orange.svg?style=flat-square" alt="APIs Documented"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT"></a>
+</p>
 
-- **apis/** - Contains detailed information about APIs categorized by their pricing model.
-  - **free/** - APIs that are free to use with no limitations or just basic usage limits.
-  - **freemium/** - APIs with free tiers but offer paid options for additional features or higher limits.
-  - **paid/** - APIs that require payment for any level of use.
-  - **tools_and_platforms/** - Platforms or tools that manage or facilitate API usage.
+<p align="center">A comprehensive repository of API documentation covering various frameworks and platforms.</p>
 
-- **categories/** - APIs organized by their function or industry (e.g., Finance, Weather, AI).
+<br>
 
-- **by-provider/** - Lists APIs by their provider or company (e.g., Google, Amazon).
+## About
 
-- **docs/** - Documentation for contributors, guidelines, and general API usage information.
+NotableAPIs is a curated collection of API documentation organized by pricing model, functionality, and provider. The repository serves as a reference for developers looking to discover, understand, and integrate APIs into their projects.
 
-- **scripts/** - Utility scripts for managing or testing APIs.
+## Directory Structure
+
+| Directory | Contents |
+|:----------|:---------|
+| [`apis`](./apis/) | APIs by pricing model (free, freemium, paid) |
+| [`by-provider`](./by-provider/) | APIs by provider (OpenAI, Microsoft, etc.) |
+| [`categories`](./categories/) | APIs by functionality (Finance, AI, etc.) |
+| [`docs`](./docs/) | Documentation templates and guides |
+
+<details>
+<summary>Detailed structure</summary>
+
+```
+NotableAPIs/
+│
+├── apis/
+│   ├── free/                  # Completely free APIs
+│   ├── freemium/              # APIs with free and paid tiers
+│   ├── paid/                  # APIs requiring payment
+│   └── tools_and_platforms/   # API development tools
+│
+├── by-provider/               # APIs organized by provider
+│   ├── anthropic/
+│   ├── microsoft/
+│   ├── openai/
+│   └── stripe/
+│
+├── categories/                # APIs grouped by functionality
+│   ├── api-marketplaces/
+│   ├── financial/
+│   └── microservices/
+│
+└── docs/                      # Documentation and resources
+    ├── security/
+    ├── templates/
+    └── api-trends-2024-2025.md
+```
+
+</details>
+
+## Featured APIs
+
+<table>
+  <tr>
+    <th align="left" width="130">Category</th>
+    <th align="left" width="200">API</th>
+    <th align="left">Description</th>
+  </tr>
+  <tr>
+    <td rowspan="3">AI & ML</td>
+    <td><a href="./apis/paid/openai/gpt-4o/">OpenAI GPT-4o</a></td>
+    <td>Multimodal capabilities with text, image, and audio</td>
+  </tr>
+  <tr>
+    <td><a href="./apis/paid/anthropic/claude-3.5/">Anthropic Claude 3.5</a></td>
+    <td>Advanced reasoning and document processing</td>
+  </tr>
+  <tr>
+    <td><a href="./apis/paid/microsoft/azure-openai/">Azure OpenAI</a></td>
+    <td>Enterprise-grade AI with Azure integration</td>
+  </tr>
+  <tr>
+    <td>Financial</td>
+    <td><a href="./apis/paid/stripe/">Stripe API</a></td>
+    <td>Comprehensive payment processing</td>
+  </tr>
+</table>
+
+## API Trends (2024-2025)
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="175"><b>60%</b><br>Annual Increase<br>in API Calls</td>
+      <td align="center" width="175"><b>72%</b><br>Using<br>Microservices</td>
+      <td align="center" width="175"><b>85%</b><br>Prioritizing<br>API Security</td>
+      <td align="center" width="175"><b>3×</b><br>Growth in<br>AI-Powered APIs</td>
+    </tr>
+  </table>
+</div>
+
+Key trends in the evolving API landscape:
+
+- **AI-Powered APIs**: Enhanced capabilities for reasoning and document processing
+- **Microservices Architecture**: Specialized components for targeted business functions
+- **API Marketplaces**: Centralized platforms for discovery and integration
+- **Security Enhancements**: Advanced protection and compliance features
+- **Intelligent Integration**: AI-powered automation for complex workflows
+
+<div align="right">
+  <a href="./docs/api-trends-2024-2025.md">More about API trends →</a>
+</div>
+
+## Documentation Format
+
+Each API is documented following a standardized format:
+
+```
+api-name/
+├── README.md           # Overview and basic information
+├── authentication.md   # Authentication details
+├── endpoints.md        # Available endpoints
+├── examples/           # Usage examples
+└── limitations.md      # Restrictions and limits
+```
 
 ## Contributing
 
-We welcome contributions to expand and update this repository. Here's how you can contribute:
+We welcome contributions to this repository. See our [contribution guidelines](./docs/CONTRIBUTING.md) for details.
 
-- **Add New APIs**: If you know of an API not listed here, create a folder under the appropriate pricing model in `apis/` with a `README.md` describing the API's use, pricing, and example usage if possible.
+## License
 
-- **Update Information**: Keep the API details current by updating existing `README.md` files with new pricing, features, or changes in service.
+This repository is licensed under the [MIT License](./LICENSE).
 
-- **Fix Errors**: Found a typo or mistake? Feel free to create a pull request with the correction.
+<hr>
 
-Please check out the `docs/Contribution_Guidelines.md` for more details on how to contribute.
-
-## How to Use This Repository
-
-### Exploring APIs
-
-- **By Pricing**: Look under `apis/` to find APIs based on whether they are free, freemium, or paid.
-- **By Category**: Navigate to `categories/` to find APIs by their function or industry.
-- **By Provider**: Use `by-provider/` to see all APIs from a specific company or service.
-
-### Using APIs
-
-Each API directory contains:
-
-- **README.md**: Explanation of the API, its features, pricing, and often includes:
-  - **Authentication**: How to get started with the API, including API keys or OAuth.
-  - **Endpoints**: Key endpoints or methods available.
-  - **Rate Limits**: Important for planning API usage.
-  - **Examples**: Sometimes code snippets or curl commands for quick reference.
-
-### Examples and Scripts
-
-- **Scripts**: Check the `scripts/` directory for any tools or scripts provided to interact with APIs or manage API keys.
-
-## API Documentation Standards
-
-- **Consistency**: We aim for a consistent format in describing each API to make it easier for users to understand and compare.
-- **Current Information**: We strive to keep API descriptions up-to-date, but always refer to the official API documentation for the most current information.
-
-
----
-*Note: The specifics of APIs can change, so it's always good to check the latest documentation from the API provider before integrating into your projects.*
+<p align="center">
+  <a href="https://github.com/TMHSDigital">
+    <img src="./assets/images/tmhs-badge.svg" alt="TM Hospitality Strategies" width="180">
+  </a>
+  <br>
+  <sub>© 2025 TM Hospitality Strategies</sub>
+</p>

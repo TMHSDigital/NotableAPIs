@@ -1,6 +1,27 @@
 # APIs by Provider
 
-This directory organizes APIs based on their service providers, making it easy to discover and compare APIs from the same company or organization.
+This directory organizes APIs by the company or organization that provides them. Use this structure to quickly find all APIs offered by a specific provider.
+
+## How to Use
+
+- Each subdirectory is named after a provider (e.g., `google`, `microsoft`, `aws`).
+- Inside each provider directory, you'll find documentation for all APIs offered by that provider.
+- Use this structure to compare offerings from the same company or to find related APIs.
+
+## Example Providers
+
+- Google
+- Microsoft
+- Amazon Web Services (AWS)
+- IBM
+- Twilio
+- Stripe
+- Meta (Facebook)
+- Salesforce
+
+## Navigation
+
+Browse the subdirectories or use search to find a provider. For more details on each API, see the corresponding documentation in the `apis/` directory.
 
 ## Major Providers
 
